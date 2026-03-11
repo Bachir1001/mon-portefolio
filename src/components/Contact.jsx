@@ -260,16 +260,20 @@ function Contact() {
               <h3 className="text-xl font-bold text-white mb-4">Suivez-Moi</h3>
               <div className="flex gap-4">
                 <a
+                  href="https://www.linkedin.com/in/bassirou-thiam-07929b393/?skipRedirect=true
+"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-purple-500 transition-all duration-300 transform hover:scale-110"
                 >
                   <Linkedin className="w-6 h-6 text-white" />
                 </a>
                 <a
+                  href="https://github.com/Bachir1001"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-purple-500 transition-all duration-300 transform hover:scale-110"
                 >
                   <Github className="w-6 h-6 text-white" />
                 </a>
                 <a
+                  href="https://x.com/Bachirthia"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-purple-500 transition-all duration-300 transform hover:scale-110"
                 >
                   <Twitter className="w-6 h-6 text-white" />
