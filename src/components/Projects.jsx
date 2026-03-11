@@ -57,7 +57,6 @@ const categories = [
 
 function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("Tous");
-  const [selectedProject, setSelectedProject] = useState(null);
 
   const filteredProjects =
     selectedCategory === "Tous"

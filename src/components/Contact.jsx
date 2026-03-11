@@ -67,7 +67,7 @@ function Contact() {
 
     setIsSubmitting(true);
 
-    // Simuler l'envoi du formulaire
+    
     setTimeout(() => {
       console.log("Formulaire soumis:", formData);
       setIsSubmitting(false);
@@ -79,7 +79,6 @@ function Contact() {
         message: ""
       });
 
-      // Réinitialiser après 5 secondes
       setTimeout(() => {
         setIsSubmitted(false);
       }, 5000);
@@ -261,19 +260,16 @@ function Contact() {
               <h3 className="text-xl font-bold text-white mb-4">Suivez-Moi</h3>
               <div className="flex gap-4">
                 <a
-                  href="#"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-purple-500 transition-all duration-300 transform hover:scale-110"
                 >
                   <Linkedin className="w-6 h-6 text-white" />
                 </a>
                 <a
-                  href="#"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-purple-500 transition-all duration-300 transform hover:scale-110"
                 >
                   <Github className="w-6 h-6 text-white" />
                 </a>
                 <a
-                  href="#"
                   className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-purple-500 transition-all duration-300 transform hover:scale-110"
                 >
                   <Twitter className="w-6 h-6 text-white" />
