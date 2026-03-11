@@ -64,7 +64,6 @@ function Projects() {
       : projects.filter(project => project.category === selectedCategory);
 
   const handleViewDetails = (project) => {
-    setSelectedProject(project);
     console.log("Voir les détails du projet:", project.title);
   };
 
